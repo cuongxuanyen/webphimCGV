@@ -1,8 +1,9 @@
 
 
 .container-header {
-  background-image: url('img/anh-bia.jpg');
+  background-image: url(img/anh-bia.jpg);
   width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header-1{
   display: flex; 
@@ -14,10 +15,26 @@
   padding: 8px 16px;
   color: aliceblue;
 }
-.DK-the-thanh-vien{
-  background-color:  darkgrey;
-  opacity: 0.7;
+.top-up1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
 }
+.button-1{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px; 
+  background-color: rgba(213, 212, 212, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DK-the-thanh-vien{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(187, 186, 186, 0.7);}
 .header-2 {
   padding: 30px 40px;
   display: flex;
@@ -42,6 +59,10 @@
   color: aliceblue;
   height: 48px;
   border-radius: 5px;
+  background-color: rgba(213, 212, 212, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-3{
   width: 100%;
@@ -68,6 +89,8 @@
   margin-right: 15px;
   border-radius: 5px;
   font-style: italic;
+  display: flex;
+  align-items: center;
 }
 .span-text {
   font-style: italic;
@@ -76,6 +99,7 @@
   background-color: black;
   display: flex;
   border-bottom: 5px solid red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .conten-title{
   display: flex;
