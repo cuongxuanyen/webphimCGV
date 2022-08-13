@@ -1,7 +1,7 @@
 
 
 .container-header {
-  background-image: url(img/anh-bia.jpg);
+  background-image: url('../img/anh-bia.jpg');
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
