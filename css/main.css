@@ -1,5 +1,7 @@
 
-
+body{
+  margin: 0px;
+}
 .container-header {
   background-image: url('../img/anh-bia.jpg');
   width: 100%;
