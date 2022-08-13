@@ -1,0 +1,136 @@
+
+
+.container-header {
+  background-image: url('img/anh-bia.jpg');
+  width: 100%;
+}
+.header-1{
+  display: flex; 
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 41, 41, 0.7);
+  height: 48px;
+  padding: 8px 16px;
+  color: aliceblue;
+}
+.DK-the-thanh-vien{
+  background-color:  darkgrey;
+  opacity: 0.7;
+}
+.header-2 {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  background-color: rgba(41, 41, 41, 0.7);
+  color: aliceblue;
+  margin-left: 90px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.header-2-1{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin: 20px 0;
+
+}
+.Dat-ve{
+  color: aliceblue;
+  height: 48px;
+  border-radius: 5px;
+}
+.header-3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.wapper-input{
+  padding: 10px 0 10px 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  border-radius: 5px;
+  border-color: #ffff;
+  background-color: rgb(41, 41, 41, 0.7);
+  color: #ffff;
+}
+.filter-input{
+  padding: 10px 20px;
+  background-color: rgba(199, 197, 197, 0.7);
+  margin-right: 15px;
+  border-radius: 5px;
+  font-style: italic;
+}
+.span-text {
+  font-style: italic;
+}
+.container {
+  background-color: black;
+  display: flex;
+  border-bottom: 5px solid red;
+}
+.conten-title{
+  display: flex;
+  color: #ffff;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.wapper-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.wapper-content{
+  display: flex;
+  padding: 30px 0;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.container-phim,img {
+  width: 100%;
+  height: 230px ;
+  color: #ffff;
+  border-radius: 10px;
+  /* margin: 10px; */
+  font-size: 12px;
+}
+.container-phim{
+  margin: 10px;
+  width: 12%;
+}
+.container-sale {
+  margin: 10px;
+  width: 20%;
+}
+.container-sale,img {
+  width: 100%;
+  height: 230px ;
+  color: #ffff;
+  border-radius: 10px;
+  /* margin: 10px; */
+  font-size: 12px;
+}
+.icon-chevron {
+  width: 90px;
+  color: #ffff;
+}
+.content-bottom {
+  width: 50%;
+  padding: 0 80px;
+  color: #ffff;
+}
+.list-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 20px;
+}
+

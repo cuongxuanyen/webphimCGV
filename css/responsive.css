@@ -1,0 +1,209 @@
+.container-header{
+    background-image: url(img\anh-bia.jpg);
+    width: 100%;
+}
+.grid {
+    margin: 0px auto;
+    padding: 0 var(--pd);
+}
+
+.grid_ourstringths {
+    margin: 0px auto;
+    padding: 0 var(--pd);
+}
+.DK-the-thanh-vien{
+    background-color:  darkgrey;
+    opacity: 0.7;
+}
+.full {
+    max-width: 1260px;
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+}
+
+.row {
+    margin-left: calc(var(--pd) * -1);
+    margin-right: calc(var(--pd) * -1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.row.no-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row.space-between {
+    justify-content: space-between;
+}
+
+.col_footer {
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+.col {
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+}
+
+.col.no-gutters {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.l-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.l-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.l-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.l-5 {
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+}
+
+.l-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+
+.l-8 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+}
+
+.l-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.l-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .main_markets--heading {
+        padding: 70px 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid {
+        max-width: 1140px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 821px) and (max-device-width: 1280px) {
+
+  
+}
+
+
+@media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+  
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .grid {
+        max-width: 960px;
+    }
+
+
+
+}
+
+@media (max-width: 1754px) {
+ 
+}
+
+@media only screen and (max-width: 1280px) {
+ 
+
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .grid {
+        max-width: 720px;
+    }
+
+    .grid_ourstringths {
+        max-width: 720px;
+    }
+
+    .lm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .row.f-col-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .s-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .s-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+ 
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .grid {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+ 
+}
+
+
+
+@media (max-width: 378px) {
+
+
+ 
+}
+
+@media (max-width: 300px) {
+
+}
