@@ -1,6 +1,7 @@
 
-
-.container-header-add {
+.container-header {
+  background-image: url('../img/anh-bia.jpg');
+  width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header-1{
@@ -147,6 +148,7 @@
   border-radius: 10px;
   /* margin: 10px; */
   font-size: 12px;
+  object-fit: scale-down;
 }
 .icon-chevron {
   width: 90px;
